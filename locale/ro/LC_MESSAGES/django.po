@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-28 13:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: FastFood/models.py:6
+msgid "city"
+msgstr "oras"
+
+#: FastFood/models.py:7
+msgid "street"
+msgstr "strada"
+
+#: FastFood/models.py:8
+msgid "number"
+msgstr "numar"
+
+#: FastFood/models.py:14 FastFood/models.py:23 FastFood/models.py:44
+#: FastFood/models.py:54
+msgid "name"
+msgstr "nume"
+
+#: FastFood/models.py:19
+msgid "Clients"
+msgstr "clienti"
+
+#: FastFood/models.py:25
+msgid "phone"
+msgstr "telefon"
+
+#: FastFood/models.py:28
+msgid "Customer"
+msgstr "cumparator"
+
+#: FastFood/models.py:29
+msgid "Customers"
+msgstr "client"
+
+#: FastFood/models.py:33
+msgid "block"
+msgstr "bloc"
+
+#: FastFood/models.py:34
+msgid "stair"
+msgstr "scari"
+
+#: FastFood/models.py:35
+msgid "room"
+msgstr "camera"
+
+#: FastFood/models.py:39
+msgid "Address"
+msgstr "Adresa"
+
+#: FastFood/models.py:40
+msgid "Addresses"
+msgstr "Adrese"
+
+#: FastFood/models.py:47
+msgid "Category"
+msgstr "Categorie"
+
+#: FastFood/models.py:48
+msgid "Categories"
+msgstr "Categori"
+
+#: FastFood/models.py:55 FastFood/models.py:83
+msgid "price"
+msgstr "pret"
+
+#: FastFood/models.py:56
+msgid "content"
+msgstr "continut"
+
+#: FastFood/models.py:59
+msgid "Product"
+msgstr "Produs"
+
+#: FastFood/models.py:60
+msgid "Products"
+msgstr "Produse"
+
+#: FastFood/models.py:64 FastFood/models.py:100
+msgid "date"
+msgstr "data"
+
+#: FastFood/models.py:68
+msgid "DailyMenu"
+msgstr "MeniulZilei"
+
+#: FastFood/models.py:75
+msgid "Location"
+msgstr "Locatie"
+
+#: FastFood/models.py:76
+msgid "Locations"
+msgstr "Locatii"
+
+#: FastFood/models.py:86
+msgid "Menu"
+msgstr "Menu"
+
+#: FastFood/models.py:87
+msgid "Menus"
+msgstr "Meniuri"
+
+#: FastFood/models.py:91
+msgid "article"
+msgstr "articol"
+
+#: FastFood/models.py:92 FastFood/models.py:109
+msgid "number_of_items"
+msgstr "nr_de_obiecte"
+
+#: FastFood/models.py:93 FastFood/models.py:110
+msgid "price_per_piece"
+msgstr "pret_per_obiect"
+
+#: FastFood/models.py:96
+msgid "OrderBillingDetails"
+msgstr "PretFacturare"
+
+#: FastFood/models.py:102
+msgid "total_price"
+msgstr "pret_total"
+
+#: FastFood/models.py:103
+msgid "paid"
+msgstr "platit"
+
