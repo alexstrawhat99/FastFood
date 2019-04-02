@@ -39,6 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'FastFood',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+     'allauth.socialaccount',
+    'carton',
+    # 'allauth.socialaccount.providers.facebook',
+    # 'allauth.socialaccount.providers.twitter',
+    # 'allauth.socialaccount.providers.paypal',
+
+
 ]
 
 MIDDLEWARE = [
@@ -54,11 +64,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'FoodAPP.urls'
 
+ADMINS = [
+    ("Alex", "alexburtea99@yahoo.com")
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',
             ],
         },
     },
@@ -109,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ro'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Bucharest'
 
 USE_I18N = True
 
@@ -121,10 +135,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+STATIC_ROOT =  os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+MEDIA_URL = "/media/"
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'www', 'media')
 
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale')
 ]
 
 INTERNAL_IPS = ["127.0.0.1"]
+
+SITE_ID = 1
+
+CART_PRODUCT_MODEL = 'products.models.Product'
